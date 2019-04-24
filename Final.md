@@ -17,7 +17,12 @@ L_{cyc}(G,F) &= E_{x \sim P_{data}(x)}[\lVert F(G(x))-x\rVert_1] + E_{y \sim P_{
 L_{full}(G,F,D_X,D_Y) &= L_{GAN}(G,D_Y,X,Y) + L_{GAN}(F,D_X,Y,X) + \lambda L_{cyc}(G,F) \\\\\\
 G^*, F^* &= arg\ min_{G,F}\ max_{D_x, D_y}L_{full}(G,F,D_X,D_Y)
 \end{eqnarray}
-$$    
+$$
+
+$$\begin{eqnarray} 
+y &=& 1+1   \\\\\\
+&=& 2
+\end{eqnarray}$$
 <center>**Equation. 1 Loss function of cycleGAN [@CycleGAN2017]**</center>
 
 ## Approach
