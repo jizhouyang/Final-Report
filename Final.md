@@ -11,15 +11,15 @@ Due to the lack of aligned images (before and after makeup), this de-makeup prob
 The network is trying to learn mapping functions between two domains, X and Y. The two mapping included in our model is $G: X \rightarrow Y$ and $F: Y \rightarrow X$. Two adversarial discriminators $D_X$ and $D_Y$ are also introduced, where $D_X$ is aiming to distinguish between images $\{ x \}$ and transformed images $\{ F(y)\}$ and $D_Y$ is aiming to distinguish between images $\{ y \}$ and transformed images $\{ F(x)\}$. The lost functions involved in our model can be defined as below:    
 
 $$
-\begin{aligned}
-L_{GAN}(G,D_Y,X,Y) &= E_{y\sim P_{data}(y)}[logD_Y(y) ] + E_{x\sim P_{data}(x)}[log(1 -D_Y(G(x))) ]  \newline
-\newline
-L_{cyc}(G,F) &= E_{x \sim P_{data}(x)}[\lVert F(G(x))-x\rVert_1] + E_{y \sim P_{data}(y)}[\lVert G(F(y))-y\rVert_1] \newline
-\newline
-L_{full}(G,F,D_X,D_Y) &= L_{GAN}(G,D_Y,X,Y) + L_{GAN}(F,D_X,Y,X) + \lambda L_{cyc}(G,F) \newline
-\newline
+\begin{eqnarray}
+L_{GAN}(G,D_Y,X,Y) &= E_{y\sim P_{data}(y)}[logD_Y(y) ] + E_{x\sim P_{data}(x)}[log(1 -D_Y(G(x))) ]  \\
+\\
+L_{cyc}(G,F) &= E_{x \sim P_{data}(x)}[\lVert F(G(x))-x\rVert_1] + E_{y \sim P_{data}(y)}[\lVert G(F(y))-y\rVert_1] \\
+\\
+L_{full}(G,F,D_X,D_Y) &= L_{GAN}(G,D_Y,X,Y) + L_{GAN}(F,D_X,Y,X) + \lambda L_{cyc}(G,F) \\
+\\
 G^*, F^* &= arg\ min_{G,F}\ max_{D_x, D_y}L_{full}(G,F,D_X,D_Y)
-\end{aligned}
+\end{eqnarray}
 $$    
 <center>**Equation. 1 Loss function of cycleGAN [@CycleGAN2017]**</center>
 
