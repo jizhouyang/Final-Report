@@ -1,5 +1,5 @@
 <center> **<font size=6>De-Makeup Project Final Report</font>** </center>
-<p align="right"> Team Fancy: Wuwei Cai, Jozhou Yang, Yufei Xie, Menglin Wang </p>
+<p align="right"> Team Fancy: Wuwei Cai, Jizhou Yang, Yufei Xie, Menglin Wang </p>
 
 
 
