@@ -10,7 +10,7 @@ Compare to other noises that input images might have, makeup is a relatively fre
 Due to the lack of aligned images (before and after makeup), this de-makeup problem is tackled with an unsupervised approach. We used cycle Generative Adversarial Network(cycle GAN), based on the framework of cycle-consistent generative adversarial networks, to produce de-makeup face images. The approach include two asymmetric networks: a forward network transfer makeup style, whereas a backward network removes the makeup.      
 The network is trying to learn mapping functions between two domains, X and Y. The two mapping included in our model is $G: X \rightarrow Y$ and $F: Y \rightarrow X$. Two adversarial discriminators $D_X$ and $D_Y$ are also introduced, where $D_X$ is aiming to distinguish between images $\{ x \}$ and transformed images $\{ F(y)\}$ and $D_Y$ is aiming to distinguish between images $\{ y \}$ and transformed images $\{ F(x)\}$. The lost functions involved in our model can be defined as below:    
 
-$$
+$
 \begin{aligned}
 L_{GAN}(G,D_Y,X,Y) &= E_{y\sim P_{data}(y)}[logD_Y(y) ] + E_{x\sim P_{data}(x)}[log(1 -D_Y(G(x))) ]  \\
 \\
@@ -20,7 +20,7 @@ L_{full}(G,F,D_X,D_Y) &= L_{GAN}(G,D_Y,X,Y) + L_{GAN}(F,D_X,Y,X) + \lambda L_{cy
 \\
 G^*, F^* &= arg\ min_{G,F}\ max_{D_x, D_y}L_{full}(G,F,D_X,D_Y)
 \end{aligned}
-$$    
+$    
 <center>**Equation. 1 Loss function of cycleGAN [@CycleGAN2017]**</center>
 
 ## Approach
