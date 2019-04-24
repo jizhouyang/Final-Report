@@ -19,10 +19,12 @@ G^*, F^* &= arg\ min_{G,F}\ max_{D_x, D_y}L_{full}(G,F,D_X,D_Y)
 \end{eqnarray}
 $$
 
-$$\begin{eqnarray} 
+$$
+\begin{eqnarray} 
 y &=& 1+1   \\\\\\
 &=& 2
-\end{eqnarray}$$
+\end{eqnarray}
+$$
 <center>**Equation. 1 Loss function of cycleGAN [@CycleGAN2017]**</center>
 
 ## Approach
