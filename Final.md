@@ -76,8 +76,9 @@ As shown above, we can see that in our primary output, instead of transfering ma
  <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX21-2.png"  width = '150'>
 </p>
 <p align="center"> **Figure. Test Input images with other noise (left), primary result (middle) and final result (right)** </p>
-
-In addition, we use Microsoft Azure Face recognition system to test whether our final result can better mathch the input. The following figure shows the confidence distribution of the primary result and final result.
+<p>
+In addition, we use Microsoft Azure Face recognition system to test whether our final result can better match the input. We put the images with make-up into the recognition library and check the similarity between our generated images without make-up and the images of the recognition library. </p>
+The following figure shows the confidence distribution of the primary result and final result.
 <p align="center">
  <img src = "https://github.com/jizhouyang/Final-Report/blob/patch-1/Data.png" height="300" width = "300">
  </p>
