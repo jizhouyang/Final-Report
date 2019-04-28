@@ -40,16 +40,16 @@ We found several literatures that dealing with the similar problem, makeup trans
  <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX74-2.png"  width = '150'>
 </p>
 
-<center class="third">
+<p align="center">
 <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-0.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-2.png"  width = '150'>
-</center>
-<center class="third">
+</p>
+<p align="center">
     <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-O.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-2.png"  width = '150'>
-</center> 
+</p> 
 
 
 
-<center> **Figure. 1 Test Input images (left), primary result (middle) and final result (right)** </center>
+<p align="center"> **Figure. 1 Test Input images (left), primary result (middle) and final result (right)** </p>
 
 As shown above, we can see that in our primary output, instead of transfering makeup, the network was actually transfering 'race' and in the meantime, keep the images aligned. Even thought this was an interesting application, it did reflected our one of our problem. The distribution of our training data is biased by the selection of images, which will make the mapping functions learned by our network odd and produce funny results. When we go back to our dataset, we found our data was biased in several ways and we improved the performance after data catorization and tuning.
 1) Skin and hair color: Due to people from different race may have different skin and hair color, this will affect our model in many ways. For instance, the model might learn gold hair feature and applied it to a black hair girl, which will make it looks like our primary output. We categorized our training data by skin and hair color and as shown above, the performance was imporved.
