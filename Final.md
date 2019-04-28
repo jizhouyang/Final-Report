@@ -56,10 +56,12 @@ As shown above, we can see that in our primary output, instead of transfering ma
 
 
 2) Background: Background in the images always severe as noise and our network might transfer the backgound into abnormal color or mix it with hair. But we haven't developed an effective way to solve this problem.
-</center><center class="third">
-    <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX46-0.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX46-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX46-2.png"  width = '150'>
-</center>
-<center> **Figure. Test input image (left), and results with abnormal background (primary (middle) and final (right))** </center>
+<p align="center">
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX46-0.png" width = '150'>
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX46-1.png" width = '150'>
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX46-2.png"  width = '150'>
+</p>
+<p align="center"> **Figure. Test input image (left), and results with abnormal background (primary (middle) and final (right))** </p>
 3) Other noise in image: Other noise might come from accessaries, glasses, hat or other object in the image.These images are only minor part of training dataset, but they will affect the performance a lot. After cleaned our training dataset, we can see the result is robust to these noise.
 
 </center><center class="third">
