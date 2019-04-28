@@ -82,4 +82,9 @@ The following figure shows the confidence distribution of the primary result and
 <p align="center">
  <img src = "https://github.com/jizhouyang/Final-Report/blob/patch-1/Data.png" height="300" width = "300">
  </p>
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+ 
 ## References
