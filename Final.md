@@ -83,18 +83,33 @@ The following figure shows the confidence distribution of the primary result and
 <table>
   <thead>
     <tr>
-      <th>First Header</th>
-      <th>Second Header</th>
+      <th>Data</th>
+      <th>Mean</th>
+      <th>SD</th>
+      <th>Min</th>
+     <th>Max</th>
+     <th>T</th>
+     <th>P value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Content Cell</td>
-      <td>Content Cell</td>
+      <td>Primary</td>
+      <td>77%</td>
+     <td>9%</td>
+     <td>26%</td>
+     <td>92%</td>
+     <td></td>
+     <td></td>
     </tr>
     <tr>
-      <td>Content Cell</td>
-      <td>Content Cell</td>
+      <td>Final</td>
+      <td>81%</td>
+      <td>9%</td>
+      <td>43%</td>
+     <td>94%</td>
+     <td>-7.91</td>
+     <td><0.001</td>
     </tr>
   </tbody>
 </table>
