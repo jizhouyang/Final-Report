@@ -34,7 +34,6 @@ In this process, we were iterating the process that updateing our method dependi
 We found several literatures that dealing with the similar problem, makeup transfer and removal, for instance PairedCycleGAN [@CycleGAN], makeup detector and remover framework[@FaceBehind], and Image-to-Image Translation [@imagetranslation]. In the above literature, their work can produce impressive de-makeup face image, however, to our best knowledge, relative less investigator tried to make use of the de-makeup networks on top of face recognition application.    
 
 ## Results
-![r1]("https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX74-0.png")
 <center class="third">
  <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX74-0.png" width = '150'>
  <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX74-1.png" width = '150'>
@@ -42,7 +41,7 @@ We found several literatures that dealing with the similar problem, makeup trans
 </center>
 
 <center class="third">
-    <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-0.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-2.png"  width = '150'>
+<img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-0.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-2.png"  width = '150'>
 </center>
 <center class="third">
     <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-O.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-2.png"  width = '150'>
