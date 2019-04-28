@@ -64,13 +64,17 @@ As shown above, we can see that in our primary output, instead of transfering ma
 <p align="center"> **Figure. Test input image (left), and results with abnormal background (primary (middle) and final (right))** </p>
 3) Other noise in image: Other noise might come from accessaries, glasses, hat or other object in the image.These images are only minor part of training dataset, but they will affect the performance a lot. After cleaned our training dataset, we can see the result is robust to these noise.
 
-</center><center class="third">
-    <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX19-0.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX19-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX19-2.png"  width = '150'>
-</center>
+<p align="center">
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX19-0.png" width = '150'>
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX19-1.png" width = '150'>
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX19-2.png"  width = '150'>
+</p>
 
-<center class="third">
-    <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX21-0.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX21-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX21-2.png"  width = '150'>
-</center>
-<center> **Figure. Test Input images with other noise (left), primary result (middle) and final result (right)** </center>
+<p align="center">
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX21-0.png" width = '150'>
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX21-1.png" width = '150'>
+ <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX21-2.png"  width = '150'>
+</p>
+<p align="center"> **Figure. Test Input images with other noise (left), primary result (middle) and final result (right)** </p>
 
 ## References
