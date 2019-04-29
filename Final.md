@@ -45,16 +45,7 @@ We found several literatures that dealing with the similar problem, makeup trans
 
 ## Results
 <p align="center">
- <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX74-0.png" width = '150'>
- <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX74-1.png" width = '150'>
- <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX74-2.png"  width = '150'>
-</p>
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-0.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX26-2.png"  width = '150'>
-</p>
-<p align="center">
-    <img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-O.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-1.png" width = '150'><img src="https://raw.githubusercontent.com/weedkillers/Hello-World/master/vHX16-2.png"  width = '150'>
+ <img src="https://github.com/jizhouyang/Final-Report/blob/patch-1/Result.png">
 </p> 
 
 
